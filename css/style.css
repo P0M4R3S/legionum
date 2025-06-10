@@ -1,0 +1,194 @@
+body {
+        background: url('../src/fondos/fondoIndex.png') no-repeat center center fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+.menuSuperior{
+    width: 100%;
+    height: 30px;
+    background-color: #7e6651;
+}
+
+.menuSuperior img{
+    height: 23px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.menuPrincipal{
+    width: 100%;
+    height: 80px;
+    background-color: #b89b7a;
+    padding: 10px 0;
+}
+
+.subMenuPrincipal{
+    width: 100%;
+    height: 100%;
+    background-color: #cea27b;
+    padding: 5px 0;
+}
+
+.contenedorMenu{
+    height: 100%;
+}
+
+.btnMenuPrincipal{
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.btnMenuPrincipal img{
+    height: 150%;
+    margin-top: -15px;
+}
+
+.bloqueRecursos{
+    width: 100%;
+}
+
+.recurso{
+    width: 150px;
+    height: 50px;
+    background-color: #cea27b;
+    border: 5px solid #7e6651;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.recurso img{
+    height: 100%;
+}
+
+.bloqueInformacion, .bloqueProduccion, .bloqueConstruccion, .bloqueCiudades, .bloqueTropas, .bloqueMovimientos{
+    width: 100%;
+    min-height: 100px;
+    background-color: #cea27b;
+    border: 5px solid #7e6651;
+    padding: 5px;
+}
+
+.bloqueTropas, .bloqueInformacion, .bloqueMovimientos, .bloqueConstruccion{
+    margin-top: 20px;
+}
+
+.bloqueCentral{
+    width: 100%;
+    height: 100%;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.tituloBloque{
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.casilleroExterior{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #b89b7aaf;
+    border-radius: 30px;
+    padding: 10px 0;
+}
+
+.fila {
+    display: flex;
+    justify-content: center;
+}
+
+.fila2{
+    margin-bottom: 5px;
+}
+
+.casilla {
+    width: 100px;
+    height: 115px;
+    background-image: url('../img/hexagono.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    cursor: pointer;
+}
+
+.nivel {
+    position: absolute;
+    bottom: 15px; /* o top: 4px, según prefieras */
+    right: 15px;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    pointer-events: none; /* opcional: que no interfiera con clics */
+}
+
+.madera { background-image: url('../src/recursos/madera.png'); }
+.piedra { background-image: url('../src/recursos/piedra.png'); }
+.hierro{ background-image: url('../src/recursos/hierro.png'); }
+.cereal { background-image: url('../src/recursos/cereal.png'); }
+
+
+
+.numContenido{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filaProduccion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+.filaProduccion img{
+    width: 100%;
+}
+
+.bloqueTropas img{
+    width: 100%;
+}
+
+
+.emergenteRecursos{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    background-color: #cea27b;
+    border: 5px solid #7e6651;
+    padding: 20px;
+    z-index: 1000;
+}
+
+
+#btnCerrarEmergente{
+    width: 100%;
+    cursor: pointer;
+}
+
+.imgEmergente{
+    width: 100%;
+}

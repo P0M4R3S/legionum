@@ -67,7 +67,7 @@ $conn->close();
 //Crear la sesion del usuario
 session_start();
 $_SESSION['usuario'] = $id;
-$_SESSION['capital'] = $capital;
+$_SESSION['ciudad'] = $capital;
 
 
 // Devolver respuesta
